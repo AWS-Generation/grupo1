@@ -20,6 +20,7 @@ My Flask App é uma aplicação web desenvolvida com Flask, que oferece uma API 
 ### Clonando o Repositório
 
 git clone https://github.com/AWS-Generation/showcasegrupo1.git
+Vá para a pasta My-flask-app
 cd showcasegrupo1/My-flask-app
 
 ### Configurando o ambiente virtual

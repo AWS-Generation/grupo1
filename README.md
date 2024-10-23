@@ -19,29 +19,38 @@ My Flask App é uma aplicação web desenvolvida com Flask, que oferece uma API 
 
 ### Clonando o Repositório
 
-Clone este repositório utilizando o comando: git clone https://github.com/AWS-Generation/showcasegrupo1.git
+Clone este repositório utilizando o comando: 
+```
+git clone https://github.com/AWS-Generation/showcasegrupo1.git
+```
 
 ## Windows, MacOS e Linux: 
 Abra o Prompt de Comando ou o PowerShell.
 
 Navegue até a pasta do projeto com o seguinte comando:
+```
 cd showcasegrupo1\My-flask-app
+```
 
 ### Configurando o ambiente virtual
-python -m venv venv
-source venv/bin/activate  # No Windows use `venv\Scripts\activate`
+Para o projeto funcionar, você deve instalar todos os requirimentos ta aplicação
+```
 pip install -r requirements.txt
+```
 
-### Configurando o Banco de Dados
+### Banco de Dados
 Certifique-se de que o PostgreSQL está instalado e rodando.
 
 ### Executando a aplicação utilizando o Docker
 Construindo a Imagem Docker
+```
 docker build -t my_flask_app .
+```
 
 ### Rodando o Contêiner
+```
 docker run -d -p 5000:5000 my_flask_app
-
+```
 ### Aplicação funcionando
 Se tudo ocorrer bem, a aplicação estará disponível na web em http://localhost:5000
 

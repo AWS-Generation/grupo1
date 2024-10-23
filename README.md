@@ -53,7 +53,7 @@ A documentação da API está disponível em http://localhost:5000/swagger.
   <tr>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://avatars3.githubusercontent.com/u/31936044](https://avatars.githubusercontent.com/u/87578468?v=4" width="100px;" alt="Vinicius Ferreira"/><br>
+        <img src="[https://avatars3.githubusercontent.com/u/31936044](https://avatars.githubusercontent.com/u/87578468?v=4](https://media.licdn.com/dms/image/v2/C4D03AQHQVKpkGkubmQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1662130803394?e=1735171200&v=beta&t=z-8VkfgwWlgNXRREQHwt4iSMcGTVG4q71iZ2LX-6x7g)" width="100px;" alt="Vinicius Ferreira"/><br>
         <sub>
           <b>Vinicius Ferreira</b>
         </sub>
@@ -63,7 +63,7 @@ A documentação da API está disponível em http://localhost:5000/swagger.
       <a href="#" title="defina o título do link">
         <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
         <sub>
-          <b>Mark Zuckerberg</b>
+          <b>Vinicius Nery</b>
         </sub>
       </a>
     </td>
@@ -71,7 +71,7 @@ A documentação da API está disponível em http://localhost:5000/swagger.
       <a href="#" title="defina o título do link">
         <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
         <sub>
-          <b>Steve Jobs</b>
+          <b>Daniel Cordeiro</b>
         </sub>
       </a>
     </td>

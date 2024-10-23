@@ -78,7 +78,7 @@ Agradecimento especial aos companheiros de equipe que participaram deste projeto
     </td>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="https://media.licdn.com/dms/image/v2/C4D03AQFDNtXA880UFw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1662841146704?e=1735171200&v=beta&t=zr5OK0mCkCRlNj17pXNBp1ok7kq9qL2wuRjJ9-fxiJo" width="100px;" alt="Daniel Cordeiro"/><br>
         <sub>
           <b>Daniel Cordeiro</b>
         </sub>

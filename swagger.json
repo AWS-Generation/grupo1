@@ -1,0 +1,249 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "version": "1.0.0",
+      "title": "API de Funcionários e Alunos",
+      "description": "Esta é uma API para gerenciar funcionários e alunos."
+    },
+    "paths": {
+      "/funcionario": {
+        "post": {
+          "summary": "Cria um novo funcionário",
+          "parameters": [
+            {
+              "in": "body",
+              "name": "funcionario",
+              "description": "Funcionário a ser criado",
+              "schema": {
+                "$ref": "#/definitions/Funcionario"
+              }
+            }
+          ],
+          "responses": {
+            "201": {
+              "description": "Funcionário criado"
+            },
+            "400": {
+              "description": "Email já cadastrado"
+            },
+            "409": {
+              "description": "Conflito: Email já existe"
+            }
+          }
+        }
+      },
+      "/funcionario/{id}": {
+        "get": {
+          "summary": "Obtém um funcionário pelo ID",
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "type": "integer"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Funcionário encontrado",
+              "schema": {
+                "$ref": "#/definitions/Funcionario"
+              }
+            },
+            "404": {
+              "description": "Funcionário não encontrado"
+            }
+          }
+        },
+        "put": {
+          "summary": "Atualiza um funcionário pelo ID",
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "type": "integer"
+            },
+            {
+              "in": "body",
+              "name": "funcionario",
+              "description": "Funcionário a ser atualizado",
+              "schema": {
+                "$ref": "#/definitions/Funcionario"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Funcionário atualizado"
+            },
+            "400": {
+              "description": "Dados inválidos"
+            },
+            "404": {
+              "description": "Funcionário não encontrado"
+            }
+          }
+        },
+        "delete": {
+          "summary": "Deleta um funcionário pelo ID",
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "type": "integer"
+            }
+          ],
+          "responses": {
+            "204": {
+              "description": "Funcionário deletado"
+            },
+            "404": {
+              "description": "Funcionário não encontrado"
+            }
+          }
+        }
+      },
+      "/aluno": {
+        "post": {
+          "summary": "Cria um novo aluno",
+          "parameters": [
+            {
+              "in": "body",
+              "name": "aluno",
+              "description": "Aluno a ser criado",
+              "schema": {
+                "$ref": "#/definitions/Aluno"
+              }
+            }
+          ],
+          "responses": {
+            "201": {
+              "description": "Aluno criado"
+            },
+            "400": {
+              "description": "Email já cadastrado"
+            },
+            "409": {
+              "description": "Conflito: Email já existe"
+            }
+          }
+        }
+      },
+      "/aluno/{id}": {
+        "get": {
+          "summary": "Obtém um aluno pelo ID",
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "type": "integer"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Aluno encontrado",
+              "schema": {
+                "$ref": "#/definitions/Aluno"
+              }
+            },
+            "404": {
+              "description": "Aluno não encontrado"
+            }
+          }
+        },
+        "put": {
+          "summary": "Atualiza um aluno pelo ID",
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "type": "integer"
+            },
+            {
+              "in": "body",
+              "name": "aluno",
+              "description": "Aluno a ser atualizado",
+              "schema": {
+                "$ref": "#/definitions/Aluno"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Aluno atualizado"
+            },
+            "400": {
+              "description": "Dados inválidos"
+            },
+            "404": {
+              "description": "Aluno não encontrado"
+            }
+          }
+        },
+        "delete": {
+          "summary": "Deleta um aluno pelo ID",
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "type": "integer"
+            }
+          ],
+          "responses": {
+            "204": {
+              "description": "Aluno deletado"
+            },
+            "404": {
+              "description": "Aluno não encontrado"
+            }
+          }
+        }
+      }
+    },
+    "definitions": {
+      "Funcionario": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "nome": {
+            "type": "string",
+            "minLength": 1
+          },
+          "email": {
+            "type": "string",
+            "format": "email"
+          },
+          "senha": {
+            "type": "string",
+            "minLength": 6
+          }
+        },
+        "required": ["nome", "email", "senha"]
+      },
+      "Aluno": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "nome": {
+            "type": "string",
+            "minLength": 1
+          },
+          "email": {
+            "type": "string",
+            "format": "email"
+          }
+        },
+        "required": ["nome", "email"]
+      }
+    }
+  }
+  

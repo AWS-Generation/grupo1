@@ -20,7 +20,7 @@ Uma aplicação web desenvolvida com Flask, que oferece uma API para gerenciar f
 
 Clone este repositório utilizando o comando: 
 ```
-git clone https://github.com/AWS-Generation/showcasegrupo1.git
+git clone https://github.com/AWS-Generation/grupo1.git
 ```
 
 ## Windows, MacOS e Linux: 
@@ -28,11 +28,11 @@ Abra o Prompt de Comando ou o PowerShell.
 
 Navegue até a pasta do projeto com o seguinte comando:
 ```
-cd showcasegrupo1\My-flask-app
+cd My-flask-app
 ```
 
 ### Configurando o ambiente virtual
-Para o projeto funcionar, você deve instalar todos os requirimentos ta aplicação
+Para o projeto funcionar, você deve instalar todos os requirimentos da aplicação
 ```
 pip install -r requirements.txt
 ```

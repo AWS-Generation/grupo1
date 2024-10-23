@@ -1,12 +1,11 @@
 ## API de Funcionários e Alunos (Bootcamp Generation Brasil)
 
-My Flask App é uma aplicação web desenvolvida com Flask, que oferece uma API para gerenciar funcionários e autenticação de login. Esta aplicação é ideal para aprender e praticar conceitos de desenvolvimento web, APIs RESTful e integração com Docker.
+Uma aplicação web desenvolvida com Flask, que oferece uma API para gerenciar funcionários e autenticação de login. Esta aplicação é ideal para aprender e praticar conceitos de desenvolvimento web, APIs RESTful e integração com Docker.
 
 ## Funcionalidades
 
 - **Criação de Funcionários**: Adicione novos funcionários com nome, email e senha.
 - **Autenticação de Login**: Realize login com email e senha.
-- **Documentação Swagger**: Acesse a documentação interativa da API em `/swagger`.
 
 ## 💻 Pré-requisitos
 

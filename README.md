@@ -53,9 +53,9 @@ A documentação da API está disponível em http://localhost:5000/swagger.
   <tr>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="https://avatars3.githubusercontent.com/u/31936044](https://avatars.githubusercontent.com/u/87578468?v=4" width="100px;" alt="Vinicius Ferreira"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Vinicius Ferreira</b>
         </sub>
       </a>
     </td>

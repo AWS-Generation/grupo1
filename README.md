@@ -57,6 +57,7 @@ Se tudo ocorrer bem, a aplicação estará disponível na web em http://localhos
 A documentação da API está disponível em http://localhost:5000/swagger.
 
 ## 🤝 Colaboradores
+Agradecimento especial aos companheiros de equipe que participaram deste projeto:
 <table>
   <tr>
     <td align="center">

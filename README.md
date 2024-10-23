@@ -46,7 +46,7 @@ Construindo a Imagem Docker
 docker build -t my_flask_app .
 ```
 
-### Rodando o Contêiner
+### Rodando o Container
 ```
 docker run -d -p 5000:5000 my_flask_app
 ```

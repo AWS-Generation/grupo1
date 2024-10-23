@@ -61,7 +61,7 @@ A documentação da API está disponível em http://localhost:5000/swagger.
     </td>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Vincius Nery"/><br>
+        <img src="https://media.licdn.com/dms/image/v2/D4E35AQERkia6rDCLwg/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1635514188812?e=1730314800&v=beta&t=0TUYXUuiCuhcMGp8mJUxH-I59GQgaxbx1OZz4ZBI3H0" width="100px;" alt="Vincius Nery"/><br>
         <sub>
           <b>Vinicius Nery</b>
         </sub>

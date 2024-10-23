@@ -53,7 +53,7 @@ A documentação da API está disponível em http://localhost:5000/swagger.
   <tr>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://media.licdn.com/dms/image/v2/C4D03AQHQVKpkGkubmQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1662130803394?e=1735171200&v=beta&t=z-8VkfgwWlgNXRREQHwt4iSMcGTVG4q71iZ2LX-6x7g)" width="100px;" alt="Vinicius Ferreira"/><br>
+        <img src="[https://media.licdn.com/dms/image/v2/C4D03AQHQVKpkGkubmQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1662130803394?e=1735171200&v=beta&t=z-8VkfgwWlgNXRREQHwt4iSMcGTVG4q71iZ2LX-6x7g)](https://media.licdn.com/dms/image/v2/C4D03AQHQVKpkGkubmQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1662130803394?e=1735171200&v=beta&t=z-8VkfgwWlgNXRREQHwt4iSMcGTVG4q71iZ2LX-6x7g)" width="100px;" alt="Vinicius Ferreira"/><br>
         <sub>
           <b>Vinicius Ferreira</b>
         </sub>

@@ -23,7 +23,7 @@ Clone este repositório utilizando o comando:
 git clone https://github.com/AWS-Generation/grupo1.git
 ```
 
-## Windows, MacOS e Linux: 
+## 💻 Windows, MacOS e Linux: 
 Abra o Prompt de Comando ou o PowerShell.
 
 Navegue até a pasta do projeto com o seguinte comando:
@@ -40,20 +40,20 @@ pip install -r requirements.txt
 ### Banco de Dados
 Certifique-se de que o PostgreSQL está instalado e rodando.
 
-### Executando a aplicação utilizando o Docker
+### 🐳 Executando a aplicação utilizando o Docker
 Construindo a Imagem Docker
 ```
 docker build -t my_flask_app .
 ```
 
-### Rodando o Container
+### 🚢 Rodando o Container
 ```
 docker run -d -p 5000:5000 my_flask_app
 ```
 ### Aplicação funcionando
 Se tudo ocorrer bem, a aplicação estará disponível na web em http://localhost:5000
 
-### Documentação da API
+### 📝 Documentação da API
 A documentação da API está disponível em http://localhost:5000/swagger.
 
 ## 🤝 Colaboradores

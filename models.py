@@ -17,7 +17,12 @@ class Funcionario(db.Model):
         return bcrypt.checkpw(senha.encode('utf-8'), self.senha.encode('utf-8'))
 
 class Aluno(db.Model):
+    __tablename__ = 'aluno'
+    
     id = db.Column(db.Integer, primary_key=True)
-    nome = db.Column(db.String(100), nullable=False)
-    email = db.Column(db.String(100), unique=True, nullable=False)
-    curso = db.Column(db.String(100), default="Generation Brasil - 1")
+    nome = db.Column(db.String(255), nullable=False)
+    email = db.Column(db.String(255), unique=True, nullable=False)
+    idade = db.Column(db.Integer, nullable=True)
+    notaprimeiromodulo = db.Column(db.Float, nullable=True)
+    notasegundomodulo = db.Column(db.Float, nullable=True)# Armazenaremos manualmente, pois SQLAlchemy não tem suporte direto para GENERATED
+

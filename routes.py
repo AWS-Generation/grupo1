@@ -66,12 +66,33 @@ def delete_funcionario(id):
 def create_aluno():
     """Cria um novo aluno."""
     data = request.get_json()
+
+    # Valida se o e-mail já está cadastrado
     if Aluno.query.filter_by(email=data['email']).first():
         return jsonify({"error": "Email já cadastrado"}), 400
-    new_aluno = Aluno(nome=data['nome'], email=data['email'])
+
+    # Valida o comprimento do nome
+    if len(data['nome']) < 3:
+        return jsonify({"error": "Nome deve ter pelo menos 3 caracteres"}), 400
+
+    # Valida a idade
+    if data.get('idade', None) is not None and data['idade'] < 0:
+        return jsonify({"error": "Idade deve ser um valor positivo"}), 400
+
+    # Criação do novo aluno
+    new_aluno = Aluno(
+        nome=data['nome'],
+        email=data['email'],
+        idade=data.get('idade'),
+        notaprimeiromodulo=data.get('nota_primeiro_modulo'),
+        notasegundomodulo=data.get('nota_segundo_modulo')
+    )
+
+    # Adiciona o novo aluno ao banco de dados
     db.session.add(new_aluno)
     db.session.commit()
-    return jsonify({"message": "Aluno criado com sucesso"}), 201
+
+    return jsonify({"message": "Aluno criado com sucesso", "id": new_aluno.id}), 201
 
 @app.route('/aluno/<int:id>', methods=['GET'])
 @jwt_required()

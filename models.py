@@ -6,6 +6,7 @@ class Funcionario(db.Model):
     nome = db.Column(db.String(100), nullable=False)
     email = db.Column(db.String(100), unique=True, nullable=False)
     senha = db.Column(db.String(100), nullable=False)
+    cargo = db.Column(db.String(100), nullable=False, default="Generation Brasil - 1")
 
     def set_password(self, senha):
         """Criptografa a senha e a armazena."""

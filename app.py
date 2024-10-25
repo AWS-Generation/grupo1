@@ -9,7 +9,7 @@ app = Flask(__name__)
 # Configuração do banco de dados PostgreSQL
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:1234@db:5432/projetogeneration'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False  # Desativar modificações de rastreamento
-app.config['JWT_SECRET_KEY'] = 'your_jwt_secret_key'  
+app.config['JWT_SECRET_KEY'] = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.bXAz_VJ0iLKu-Noq9tKXxYjRMD3P2l81HVAR45MZjVw'  
 db = SQLAlchemy(app)
 jwt = JWTManager(app)
 
